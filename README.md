@@ -1,3 +1,4 @@
-ABOUT THE DEVELOPER
+ABOUT
 
-An architect, currently transitioning from designing physical structures to crafting digital worlds as a self-taught game developer. I am fascinated by how architectural principles like geometry and minimalist aesthetics can be translated into interactive play—this is just the beginning of my journey.
+An architect by trade, a game developer by choice.
+For years, I have been working as an architect, focusing on spatial and visual challenges. Now, I’m finally taking the leap to turn my lifelong passion—making games—into a reality.I may be a newcomer to programming, but I bring a lifetime of design expertise to every world I build.
