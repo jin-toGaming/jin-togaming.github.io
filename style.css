@@ -47,7 +47,8 @@ body {
 .logo {
   font-size: 12vh; /* 使用视口宽度单位，确保在不同屏幕上都能适应 */
   color: #fffef9;
-  -webkit-text-stroke: 20px #fffef9;
+  -webkit-text-stroke: 1.5vh #fffef9;
+
 }
 .logo-text {
   font-size: 2vh; /* 使用视口宽度单位，确保在不同屏幕上都能适应 */
