@@ -28,7 +28,7 @@ body {
   /* 记得清除默认边距 */
   margin: 0;
   padding: 0;
-  min-height:100dvh;
+  min-height:100vh;
 }
 .home {
   font-size: 2vh; /* 使用视口宽度单位，确保在不同屏幕上都能适应 */
@@ -41,7 +41,7 @@ body {
   display: flex;
   justify-content: center; /* 水平居中 */
   align-items: center; /* 垂直居中 */
-  min-height: 100dvh; /* 确保父容器高度占满整个屏幕 */
+  min-height: 100vh; /* 确保父容器高度占满整个屏幕 */
   flex-direction: column;
 }
 .logo {
