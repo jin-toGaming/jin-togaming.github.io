@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* 确保 padding 不会撑大盒子 */
+  font-family: "Inter", sans-serif;
+}
+html {
+  scroll-padding-top: 15vh; /* 与 header 高度保持一致 */
+}
+a {
+  color: #fffef9;
+  text-decoration: none; /* 去掉默认的下划线 */
+}
+body {
+  overflow-x: hidden; /* 防止出现细微的左右晃动 */
+  background-image: url("./assets/32color.gif");
+
+  /* 关键属性 */
+  background-size: cover; /* 保持比例撑满全屏，不留白 */
+  background-position: center; /* 图片居中展示 */
+  background-repeat: no-repeat; /* 防止图片重复排列 */
+  background-attachment: fixed; /* 背景固定，不随内容滚动（视差感） */
+
+  image-rendering: pixelated; /* 现代浏览器的标准写法 */
+  image-rendering: -moz-crisp-edges; /* 针对 Firefox */
+  image-rendering: crisp-edges; /* 针对部分其他浏览器 */
+
+  /* 记得清除默认边距 */
+  margin: 0;
+  padding: 0;
+}
+.home {
+  font-size: 2vh; /* 使用视口宽度单位，确保在不同屏幕上都能适应 */
+  color: #fffef9;
+  -webkit-text-stroke: 0.2vh #fffef9;
+  transform: scaleY(1.2); /* 1.2 表示纵向拉长到 1.2 倍，数值越大越高 */
+  line-height: 1.1;
+}
+#logo {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  min-height: 100vh; /* 确保父容器高度占满整个屏幕 */
+  flex-direction: column;
+}
+.logo {
+  font-size: 12vh; /* 使用视口宽度单位，确保在不同屏幕上都能适应 */
+  color: #fffef9;
+  -webkit-text-stroke: 20px #fffef9;
+}
+.logo-text {
+  font-size: 2vh; /* 使用视口宽度单位，确保在不同屏幕上都能适应 */
+  color: #fffef9;
+}
+.container {
+  display: block;
+  margin: 8vh 0; /* 上下间距，水平居中 */
+}
+.page {
+  display: block;
+  margin-top: 20vh; /* 水平居中 */
+}
+.title {
+  color: #fffef9;
+  font-size: 10vh;
+  line-height: 0.85; /* 强制压缩行高 */
+  margin: 0; /* 暴力负边距，强制把下方的白色块拉上来 */
+  display: block;
+  -webkit-text-stroke: 18px #fffef9;
+}
+.content {
+  background-color: #fffef9;
+  font-size: 2vh;
+  color: #030303;
+  margin: 0;
+  padding: 5%;
+  line-height: 1.5;
+}
+.heading {
+  font-weight: 900;
+  color: #030303;
+}
+.indent {
+  margin-left: 2em;
+}
+.project {
+  position: relative; /* 关键：作为定位参考 */
+  display: inline-block;
+  z-index: 1; /* 较低层级 */
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.project-title {
+  white-space: nowrap; /* ← 加上这行，强制不换行 */
+  top: -10%;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 0.8;
+}
+.project-subtitle {
+  text-align: center;
+  white-space: nowrap; /* ← 加上这行，强制不换行 */
+  top: 5%;
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+#header {
+  background-color: #000000;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  top: 0;
+  align-items: center;
+  padding-left: 2vw;
+  z-index: 2;
+}
+#footer {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  bottom: 0;
+  display: flex;
+  color: #fffef9;
+  padding-left: 2vh;
+  padding-top: 7vh;
+  font-weight: 900;
+  z-index: 2;
+}
