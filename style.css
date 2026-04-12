@@ -68,7 +68,7 @@ body {
   line-height: 0.85; /* 强制压缩行高 */
   margin: 0; /* 暴力负边距，强制把下方的白色块拉上来 */
   display: block;
-  -webkit-text-stroke: 1.5vh #fffef9;
+  -webkit-text-stroke: 1.4vh #fffef9;
 }
 .content {
   background-color: #fffef9;
