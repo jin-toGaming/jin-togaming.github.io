@@ -41,7 +41,7 @@ body {
   display: flex;
   justify-content: center; /* 水平居中 */
   align-items: center; /* 垂直居中 */
-  min-height: 100vh; /* 确保父容器高度占满整个屏幕 */
+  min-height: 100dvh; /* 确保父容器高度占满整个屏幕 */
   flex-direction: column;
 }
 .logo {
