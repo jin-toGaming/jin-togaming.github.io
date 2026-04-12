@@ -129,8 +129,8 @@ body {
   bottom: 0;
   display: flex;
   color: #fffef9;
-  padding-left: 2vh;
-  padding-top: 2vh;
+  padding-left: 2vw;
+  padding-top: 1vw;
   font-weight: 900;
   z-index: 2;
 }
