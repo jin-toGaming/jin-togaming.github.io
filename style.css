@@ -135,5 +135,5 @@ body {
   z-index: 2;
 }
 img {
-  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -webkit-optimize-contrast;/* 重要！不加这个图片会模糊 */
 }
