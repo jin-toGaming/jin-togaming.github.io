@@ -28,7 +28,7 @@ body {
   /* 记得清除默认边距 */
   margin: 0;
   padding: 0;
-  min-height:100vh;
+  min-height: 100vh;
 }
 .home {
   font-size: 2vh; /* 使用视口宽度单位，确保在不同屏幕上都能适应 */
@@ -48,7 +48,6 @@ body {
   font-size: 12vh; /* 使用视口宽度单位，确保在不同屏幕上都能适应 */
   color: #fffef9;
   -webkit-text-stroke: 1.5vh #fffef9;
-
 }
 .logo-text {
   font-size: 2vh; /* 使用视口宽度单位，确保在不同屏幕上都能适应 */
@@ -130,10 +129,22 @@ body {
   display: flex;
   color: #fffef9;
   padding-left: 2vw;
+  padding-right: 2vw;
   padding-top: 1vw;
-  font-weight: 900;
   z-index: 2;
+  justify-content: space-between;
 }
+
+.boldText {
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.lightText {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 img {
-  image-rendering: -webkit-optimize-contrast;/* 重要！不加这个图片会模糊 */
+  image-rendering: -webkit-optimize-contrast; /* 重要！不加这个图片会模糊 */
 }
